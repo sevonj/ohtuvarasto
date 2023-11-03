@@ -1,7 +1,6 @@
 from varasto import Varasto
 
 
-# Test Change
 def main():
     mehua = Varasto(100.0)
     olutta = Varasto(100.0, 20.2)
