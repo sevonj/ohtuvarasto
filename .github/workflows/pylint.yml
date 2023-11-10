@@ -21,4 +21,4 @@ jobs:
       - name: Install dependencies
         run: poetry install
       - name: Analyse
-        run: pylint src
+        run: poetry run pylint src
